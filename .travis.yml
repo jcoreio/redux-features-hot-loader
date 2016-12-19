@@ -1,12 +1,24 @@
 language: node_js
+sudo: required
+env:
+  CXX: g++-4.8
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - build-essential
+
 cache:
   directories:
     - node_modules
 notifications:
   email: false
 node_js:
+  - '7'
   - '6'
-  - '5'
   - '4'
 before_script:
   - npm prune
