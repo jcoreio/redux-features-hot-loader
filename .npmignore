@@ -1,5 +1,6 @@
 coverage
 .nyc_output
+errorShots
 test
 scripts
 node_modules
