@@ -10,7 +10,8 @@ module.exports.pitch = function (remainingRequest) {
 
   return [
     "var features = require('redux-features')",
-    'var feature = module.exports = require(' + moduleRequest + ').default',
+    'var feature = module.exports = require(' + moduleRequest + ')',
+    'if (feature && feature.__esModule) feature = feature.default',
     'var loaded = false',
     'if (module.hot) {',
     '  var _init = feature.init',
