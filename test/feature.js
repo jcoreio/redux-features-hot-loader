@@ -1,10 +1,8 @@
-// @flow
-
 /* eslint-env commonjs */
 
 const feature = {
   foo: 'bar',
-  load(): Promise<Object> {
+  load() {
     return new Promise(resolve => require.ensure(['./featureImpl'], require => resolve({
       ...feature,
       ...require('./featureImpl').default,
