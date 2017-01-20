@@ -73,7 +73,7 @@
     "eslint": "^3.11.1",
     "eslint-plugin-flowtype": "^2.28.2",
     "eslint-watch": "^2.1.14",
-    "flow-bin": "^0.36.0",
+    "flow-bin": "^0.38.0",
     "flow-watch": "^1.1.0",
     "husky": "^0.12.0",
     "istanbul": "^0.4.5",
@@ -89,7 +89,7 @@
     "validate-commit-msg": "^2.8.2",
     "wdio-mocha-framework": "^0.5.7",
     "wdio-phantomjs-service": "^0.2.2",
-    "wdio-spec-reporter": "0.0.4",
+    "wdio-spec-reporter": "0.0.5",
     "webdriverio": "^4.5.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
