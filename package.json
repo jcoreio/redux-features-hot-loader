@@ -75,7 +75,7 @@
     "eslint-watch": "^3.0.0",
     "flow-bin": "^0.40.0",
     "flow-watch": "^1.1.0",
-    "husky": "^0.12.0",
+    "husky": "^0.13.2",
     "istanbul": "^0.4.5",
     "json-loader": "^0.5.4",
     "lodash.map": "^4.6.0",
