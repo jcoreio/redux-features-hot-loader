@@ -87,7 +87,7 @@
     "rimraf": "^2.5.4",
     "semantic-release": "^6.3.2",
     "validate-commit-msg": "^2.8.2",
-    "wdio-mocha-framework": "^0.5.7",
+    "wdio-mocha-framework": "^0.5.10",
     "wdio-phantomjs-service": "^0.2.2",
     "wdio-spec-reporter": "0.0.5",
     "webdriverio": "^4.5.0",
