@@ -89,7 +89,7 @@
     "validate-commit-msg": "^2.8.2",
     "wdio-mocha-framework": "^0.5.7",
     "wdio-phantomjs-service": "^0.2.2",
-    "wdio-spec-reporter": "0.0.5",
+    "wdio-spec-reporter": "0.1.2",
     "webdriverio": "^4.5.0",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
