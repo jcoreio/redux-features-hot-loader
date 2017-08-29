@@ -9,25 +9,25 @@ module.exports = {
   context: __dirname,
   devtool: 'source-map',
   entry: [
+    'babel-polyfill',
     'webpack-dev-server/client?http://localhost:' + port + '/',
-    'webpack/hot/dev-server',
+    'webpack/hot/only-dev-server',
     './client',
   ],
   output: {
-    file: 'bundle.js',
+    filename: 'bundle.js',
     path: __dirname,
     publicPath: '/',
   },
   module: {
-    loaders: [
-      { test: /\.json$/, loader: 'json-loader'},
+    rules: [
       {
         test: /feature\.js$/,
-        loader: '../src/index',
+        use: '../src/index',
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
+        use: 'babel-loader',
         exclude: /node_modules/,
       },
     ],
@@ -41,6 +41,7 @@ module.exports = {
     noInfo: true,
     port: port, // eslint-disable-line object-shorthand
     hot: true,
+    publicPath: '/',
     stats: {
       colors: true,
     },

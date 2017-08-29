@@ -2,11 +2,9 @@
 
 const feature = {
   foo: 'bar',
-  load() {
-    return new Promise(resolve => require.ensure(['./featureImpl'], require => resolve({
-      ...feature,
-      ...require('./featureImpl').default,
-    })))
+  async load() {
+    const featureImpl = (await System.import('./featureImpl')).default
+    return {...feature, ...featureImpl}
   }
 }
 
