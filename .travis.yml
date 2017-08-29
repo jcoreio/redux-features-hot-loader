@@ -16,10 +16,10 @@ cache:
     - node_modules
 notifications:
   email: false
-node_js:
-  - '7'
-  - '6'
-  - '4'
+node_js: '7'
+install:
+  - yarn
+  - npm rebuild
 before_script:
   - npm prune
 script:
