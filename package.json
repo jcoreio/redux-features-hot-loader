@@ -99,6 +99,6 @@
     "loader-utils": "^1.0.2"
   },
   "peerDependencies": {
-    "redux-features": "^1.2.1 || ^2.0.0"
+    "redux-features": "^1.2.1 || ^2.0.0 || ^3.0.0"
   }
 }
