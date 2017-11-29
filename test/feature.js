@@ -3,7 +3,7 @@
 const feature = {
   foo: 'bar',
   async load() {
-    const featureImpl = (await System.import('./featureImpl')).default
+    const featureImpl = (await import('./featureImpl')).default
     return {...feature, ...featureImpl}
   }
 }
