@@ -86,7 +86,7 @@
     "redux": "^3.6.0",
     "redux-features": "^3.0.0",
     "rimraf": "^2.5.4",
-    "semantic-release": "^7.0.1",
+    "semantic-release": "^8.0.0",
     "validate-commit-msg": "^2.8.2",
     "wdio-mocha-framework": "^0.5.7",
     "wdio-phantomjs-service": "^0.2.2",
